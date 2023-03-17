@@ -63,7 +63,7 @@ but $z$ can theoretically be defined over any range.
 In reality, z is typically only defined over the range [0, 5].
 Often times $z < 2$, 
 but there are some cases where z is defined at a larger values.
-Thus, it is safe to assume that $P=5$.
+Thus, it is safe to assume that $P=10$.
 But it can be seen above that $b_n$ is only dependant on $Bo$,
 since the dependance on z is integrated out.
 
