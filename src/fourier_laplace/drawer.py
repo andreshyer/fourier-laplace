@@ -1,7 +1,7 @@
 from pathlib import Path
 from numpy import loadtxt, searchsorted, where, array
 
-from estimate import estimate
+from .estimate import estimate
 
 # Load data files
 a_data = loadtxt(Path(__file__).parent / 'tables/a_data.csv', delimiter=',')

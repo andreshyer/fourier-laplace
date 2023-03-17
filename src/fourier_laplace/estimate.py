@@ -1,12 +1,10 @@
+from numpy import array
 from math import cos, sin, pi, sqrt
-cimport cython
 
-@cython.boundscheck(False)
-@cython.wraparound(False)
-def estimate(double[:] z_values, double P, list a_constants, list b_constants):
-    cdef Py_ssize_t i, n, num_constants = len(a_constants)
-    cdef double x_calc, a_n, b_n
-    cdef list results = []
+
+def estimate(z_values: array, P: float, a_constants: list, b_constants: list):
+    num_constants = len(a_constants)
+    results = []
 
     for i in range(len(z_values)):
         z = z_values[i]
