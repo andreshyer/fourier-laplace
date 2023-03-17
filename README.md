@@ -39,7 +39,9 @@ Where $f(z, Bo)$ is some generic function can be calculated from the equations a
 Using a fourier series, a generic function for $f(z, Bo)$ can be calculated.
 
 $$f(z, Bo) = \frac{a_0}{2} + \sum_{n=1}^{\infty} a_n \cos \left( \frac{2 \pi n z}{P} \right)+ b_n \sin \left( \frac{2 \pi n z}{P} \right)$$
+
 $$a_n = \frac{1}{P} \int^{P/2}_{-P/2} f(z, Bo) \cos \left( \frac{2 \pi n z}{P} \right) dz$$
+
 $$b_n = \frac{1}{P} \int^{P/2}_{-P/2} f(z, Bo) \sin \left( \frac{2 \pi n z}{P} \right) dz$$
 
 The function $f(z, Bo)$ is only truly defined on the interval $z \geq 0$,
