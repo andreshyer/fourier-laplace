@@ -8,7 +8,7 @@ $$\Delta P = \frac{1}{\gamma}(\frac{1}{R_1} + \frac{1}{R_2})$$
 In the case of axis-symmetric drops, 
 the above equation can be translated into a system of first order differential equation.
 
-$$\frac{d \phi}{d s} = 2 - Bo z - \frac{\sin \phi}{x}$$
+$$\frac{d \phi}{d s} = 2 \pm Bo z - \frac{\sin \phi}{x}$$
 
 $$\frac{d x}{d s} = \cos \phi$$
 
@@ -38,10 +38,7 @@ $$x = f(z, Bo)$$
 Where $f(z, Bo)$ is some generic function can be calculated from the equations above.
 Using a fourier series, a generic function for $f(z, Bo)$ can be calculated.
 
-$$f(z, Bo) = \frac{a_0}{2} + 
-\sum_{n=1}^{\infty} a_n \cos \left( \frac{2 \pi n z}{P} \right)
-+ b_n \sin \left( \frac{2 \pi n z}{P} \right)
-$$
+$$f(z, Bo) = \frac{a_0}{2} + \sum_{n=1}^{\infty} a_n \cos \left( \frac{2 \pi n z}{P} \right)+ b_n \sin \left( \frac{2 \pi n z}{P} \right)$$
 $$a_n = \frac{1}{P} \int^{P/2}_{-P/2} f(z, Bo) \cos \left( \frac{2 \pi n z}{P} \right) dz$$
 $$b_n = \frac{1}{P} \int^{P/2}_{-P/2} f(z, Bo) \sin \left( \frac{2 \pi n z}{P} \right) dz$$
 
