@@ -51,7 +51,9 @@ It should be noted that choosing to have the function be odd is an abitary choic
 But, it allows for simplfying the constants above.
 
 $$f(z, Bo) = \sum_{n=1}^{\infty} b_n \sin \left( \frac{2 \pi n z}{P} \right) $$
+
 $$b_n = \frac{2}{P} \int^{P/2}_{0} f(z, Bo) \sin \left( \frac{2 \pi n z}{P} \right) dz$$
+
 $$a_n = 0$$
 
 $P$ is some artibary period at which the function is defined over, 
