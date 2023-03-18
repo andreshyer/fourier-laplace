@@ -12,7 +12,13 @@ from fourier_laplace import FourierProfile
 estimator = FourierProfile(bond_number=0.2)
 
 # 0 <= z <= 5
-estimator.estimate(z = arange(0, 2, 1e-1))
+z = arange(0, 2, 1e-1)
+x = estimator.estimate(z=z) # Predicted x
+
+# Normalize profile (so that true x_max = 1)
+max_x = estimator.get_max_x()
+z = z / max_x
+x = x / max_x
 ```
 
 # Background
