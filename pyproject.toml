@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fourier_laplace"
-version = "1.0.2"
+version = "1.0.3"
 description = "A method of quickly calculating point maps of axis-symmetric drops."
 readme = "README.md"
 authors = [{ name = "Andres Hyer", email = "andreshyer@gmail.com" }]
